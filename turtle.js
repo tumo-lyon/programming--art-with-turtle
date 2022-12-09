@@ -32,6 +32,19 @@ function colorLerp(colFrom, colTo, interpol) {
   ];
 }
 
+/**
+ * Génère une couleur aléatoire
+ * @returns
+ */
+
+function randomColor() {
+  return [
+    Math.round(Math.random() * 255),
+    Math.round(Math.random() * 255),
+    Math.round(Math.random() * 255),
+  ];
+}
+
 // Les variables en JavaScript: https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Grammar_and_Types#variables
 // Les boucles en JavaScript: https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Loops_and_iteration
 // Les fonctions en JavaScript: https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Functions
